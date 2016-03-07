@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WiScale\: Planning
+title: WiScale Planning
 ---
 
 I recently got into the whole activity tracker craze. Looked into getting a wifi scale and baulked at the price. I'm pretty sure I can do it much cheaper and have a neat project to work on at the same time.
