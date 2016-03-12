@@ -5,7 +5,7 @@ title: Wiscale Devlog 2&#58; Decoding the signal
 
 Now that we can, let's take a look at the signal. Yellow and Pink are common pins, azure is a segment pin with zero segments 'on', cyan is a segment pin with three segments 'on'.
 
-[![1wjndlk 1](https://cloud.githubusercontent.com/assets/16624353/13721407/499cb84e-e87a-11e5-966e-f906429b4f25.jpg)
+[![Oscilloscope waveform](https://cloud.githubusercontent.com/assets/16624353/13721429/21c0ed94-e87b-11e5-8248-6b2e0fcfb4d1.jpg)
 ](http://imgur.com/1WjnDlk)
 
 There are 4 important voltages here, 0v, 1v, 2v and 3v. The backplane voltage is looping in a \[3,0,1,2,1,2\] voltage cycle. They flip back and forth to make sure that there isn't much DC between the backplanes and the segments, otherwise the dialectric can get 'stuck'. So to calculate the voltage over a certain segment dialectric (as opposed to the voltage at the segment select pin) we subtract the voltage of the backplane from the voltage at the segment select pin. 
