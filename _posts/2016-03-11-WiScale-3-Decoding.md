@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wiscale Devlog 2&#58; Decoding the signal
+title: Wiscale Devlog 3&#58; Decoding the signal
 ---
 
 Now that we can, let's take a look at the signal. Yellow and Pink are common pins, azure is a segment pin with zero segments 'on', cyan is a segment pin with three segments 'on'.
