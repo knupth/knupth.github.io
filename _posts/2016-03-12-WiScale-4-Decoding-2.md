@@ -10,6 +10,6 @@ With the LCD segment pins connected to PortB and PortC on the microcontroller I 
 
 Just the port logic levels during each of the LCD screen phases. To get the actual digits I'm just using a binary search tree.
 
-image
+[![Image of binary search tree](https://cloud.githubusercontent.com/assets/16624353/13728535/2cad3ce4-e970-11e5-9263-549aeeda455d.jpg)](http://imgur.com/HYtK8se)
 
 Pretty poorly balanced but it gets the job done.
